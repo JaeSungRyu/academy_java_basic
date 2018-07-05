@@ -11,11 +11,10 @@ public class PlusAssignment {
 		//1.선언 2.초기화
 		int num = 0;
 		//3.사용
-		System.out.println("초기 num 값 : " + num);
 		
+		System.out.println("초기 num 값 : " + num);
 		num += 1;
 		System.out.println("num += 1 값 수행후: " + num);
-		
 		num = num+1;
 		System.out.println("num = num+1 값 수행후 : " + num);
 		num += num+1;
@@ -26,9 +25,3 @@ public class PlusAssignment {
 	}
 
 }
-
-
-
-
-
-
