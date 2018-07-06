@@ -48,7 +48,7 @@ public class Grade {
 		}else if(score>=40 && score <80) {
 			grade = 'D';
 		}else {
-			grade = 'F';
+			grade = 'F'; 
 		}
 		
 		//3.»ç¿ë
