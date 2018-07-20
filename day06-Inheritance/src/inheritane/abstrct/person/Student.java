@@ -35,7 +35,6 @@ public class Student extends Person {
 
 	@Override
 	public void print() {
-		// TODO Auto-generated method stub
 		System.out.println("==ÇÐ»ý==");
 		System.out.println(this);
 	}
