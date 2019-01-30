@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 내부 dtd선언 academy문서를 정의 -->
+<!DOCTYPE academy[
+	<!ELEMENT academy(subject)*>
+		<!ATTLIST academy location 		CDATA#REQUIRED>
+		<!ATTLIST academy university 	CDATA#IMPLIED>
+		<!ATTLIST academy startDate 		CDATA#IMPLIED>
+		<!ATTLIST academy endDate 		CDATA#IMPLIED>
+		
+		<!ELEMENT subject (#PCDATA | name)*>
+			
+			<!ELEMENT name (EMPTY)>
+]>
+
+<academy location = '50436' unversity = 'hannamUniv'
+		 start = '2018-06-25' endDate = '2018-08-31'> 
+
+		 <subject>SQL</subject>
+		 <subject>PL/SQL</subject>
+		 <subject>JAVA</subject>
+		 <subject>JDBC</subject>
+		 <subject>MyBatis</subject>
+		 <subject>Servlet/JSP</subject>
+		 <subject>Modeling</subject>
+		 <subject>Spring FrameWork</subject>
+		 <subject>project</subject>
+	
+</academy>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 청년취업 아카데미에서 배우는 xml문서로 정리 -->
+<!-- Well Formed
+     4.시작 엘리먼트는 속성을 정의할수 있으며
+     키 = '값', 키 = '값'형태로 정의 -->
+<academy location = '50436' unversity = 'hannamUniv'
+		 start = '2018-06-25' endDate = '2018-08-31'> 
+
+		 <subject>SQL</subject>
+		 <subject>PL/SQL</subject>
+		 <subject>JAVA</subject>
+		 <subject>JDBC</subject>
+		 <subject>MyBatis</subject>
+		 <subject>Servlet/JSP</subject>
+		 <subject>Modeling</subject>
+		 <subject>Spring FrameWork</subject>
+		 <subject>project</subject>
+	
+</academy>

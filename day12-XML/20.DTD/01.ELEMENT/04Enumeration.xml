@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ELEMENT를 정의할 때, 하위 엘리먼트의 포함관계를
+	  명시할때 열거형(,)이나 선택(|)관계를 표기할 수 있다.  -->
+	  
+<!-- 내부 DTD선언 -->
+
+
+<!DOCTYPE products [
+	<!ELEMENT product(prodCode, prodName, (price | quantity),company)>
+		<!ELEMENT prodCode (#PCDATA)>
+		<!ELEMENT prodName (#PCDATA)>
+		<!ELEMENT price (#PCDATA)>
+		<!ELEMENT quantity (#PCDATA)>
+		<!ELEMENT company (emplyee,empNo)*>
+	
+		<!ELEMENT emplyee (#PCDATA)>
+		<!ELEMENT empNo (#PCDATA)>
+]>
+
+<products>
+	<product>
+	<prodCode>S001</prodCode>
+	
+	
+	</product>
+
+</products>
+	

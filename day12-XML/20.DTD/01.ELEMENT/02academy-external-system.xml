@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 외부 dtd 선언 : 개인용 : SYSTEM -->
+<!DOCTYPE academy SYSTEM "academy.dtd">
+
+<!-- xml선언 -->
+<academy>
+<subject>SQL</subject>
+<subject>XML</subject>
+<!-- <student></student> -->
+<!-- 외부 dtd인 academy.dtd파일에
+	 student 엘리먼트의 등장에 대하 정의가 없으므로
+  	 이 문서에 사용시 valid document가 아닌것으로 판단 -->
+
+</academy>
